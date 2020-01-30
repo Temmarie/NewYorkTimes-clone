@@ -1,0 +1,19 @@
+.nav-bar {
+    display: inline;
+    justify-content: space-around;
+  }
+  
+  .left-nav-bar {
+    float: left;
+  }
+  
+  .right-nav-bar {
+    float: right;
+    margin-top: -24px; 
+  }
+  
+  .center-nav-bar {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
