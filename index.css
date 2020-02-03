@@ -43,7 +43,12 @@
 	text-align: center;
 	font-family: cheltenham, georgia, 'times new roman', times, serif;
 	font-style: italic;
+  	font-size: 40px;
+  	font-weight: 700;
+  	line-height: 48px;
+  	color: rgb(18, 18, 18);
 }
+
 .big-picture {
 	height: 550px;
 	display: block;
@@ -129,7 +134,7 @@
 }
 
 .social-icons .icons {
-	transform: rotate(360deg);
+/* 	transform: rotate(360deg); */
 }
 
 .icons-bookmark {
@@ -144,6 +149,10 @@
 }
 .main-article-paragraphs {
 	margin-top: 20px;
+}
+
+.main-article-paragraphs iframe {
+  margin-left: 320px;
 }
 .main-article-paragraphs p {
 	font-family: georgia, serif;
@@ -197,7 +206,7 @@
 }
 .inflation-title {
 	font-family: nyt-imperial, georgia, "times new roman", times, serif;
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 700;
 	line-height: 30px;
 	color: rgb(51, 51, 51);
@@ -211,67 +220,76 @@
 	color: rgb(51, 51, 51);
 
 }
-.inflation-paragraph {
-	display: inline-block;
-	vertical-align: top;
-	font-size: 14px;
-	font-weight: 300;
-	font-family: nyt-chaplin;
-	word-spacing: 3px;
-	padding-top: 140px;
-	padding-bottom: 100px;
-	height: 130px;
-	width: 24.5%;
-	line-height: 17px;
-	font-style: normal;
-}
 
 .inflation-container>p {
   margin-top: -25px;
-  	text-align: justify;
+  text-align: justify;
 	display: block;
 	font-family: nyt-imperial, georgia, "times new roman", times, serif;
 	font-size: .875rem;
+  font-style: normal;
 	font-weight: 400;
 	line-height: 1.125rem;
 	color: rgb(102, 102, 102);
   
 }
 
-.inflation-theory {
-    background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
-  
-/* 	margin: auto; */
-	width: 50%;
-/* 	padding: 10px; */
+.inflation-image {
+  	height: 560px;
+	display: block;
+	margin-right: auto;
+	width: 80.75%;
+
 }
 
-.inflation-theory p {
+.inflation-paragraph-first {
   display: inline-block;
-  vertical-align: top;
-  font-size: 14px;
-  font-weight: 300;
-  font-family: nyt-chaplin;
-  word-spacing: 3px;
-  padding-top: 140px;
-  padding-bottom: 100px;
-  height: 130px;
-  width: 24.5%;
-  line-height: 17px;
-  font-style: normal;
+	vertical-align: top;
+	font-size: 14px;
+	font-weight: 300;
+	font-family: nyt-franklin,arial,helvetica,sans-serif;
+	word-spacing: 3px;
+  margin-top: -430px;
+	padding-top: 20px;
+	padding-bottom: 100px;
+  padding-right: 10px;
+	height: 130px;
+	width: 18.75%;
+	line-height: 15px;
+	font-style: normal;
 }
+
+.inflation-paragraph-second {
+  display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	font-weight: 300;
+	font-family: nyt-franklin,arial,helvetica,sans-serif;
+	word-spacing: 3px;
+  margin-top: -170px;
+	padding-top: 20px;
+	padding-bottom: 100px;
+  padding-right: 20px;
+	height: 130px;
+	width: 18.75%;
+	line-height: 15px;
+	font-style: normal;
+}
+
 .theory-line {
-	width: 61px;
-	border: 1.2px solid black;
-	text-align: left;
-	top: 45px;
+	width: 6%;
+  margin-top: -46px;
+  margin-left: 150px;
 }
 .theory-author {
 	font-weight: 540;
 	font-size: 14px;
 	font-family: Arial, Helvetica, sans-serif;
-	position: relative;
+  margin-left: 150px;
 }
+/* .video {
+  margin: auto;
+} */
 .telescope {
 	width: 50%;
 	margin: 50px auto;
@@ -293,4 +311,80 @@
 	font-weight: 400;
 	line-height: 18px;
 	color: rgb(136, 136, 136);
+}
+
+.article-footer {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+
+  font-size: 12px;
+
+  font-weight: 400;
+
+  line-height: 16px;
+
+  color: rgb(102, 102, 102);
+  margin-left: 320px;
+  vertical-align: baseline;
+}
+
+.article-footer-link {
+    color: rgb(102, 102, 102);
+}
+
+.article-footer time {
+    font-weight:500;
+}
+
+
+.article-footer-link:hover {
+  	text-decoration: none;
+}
+
+.comments-container {
+  margin-left: 320px;
+}
+
+.comments-btn {
+  float: left;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  margin-top: 30px;
+  color: white;
+	border: 1px solid;
+	padding: 10px;
+	background-color: #567b95;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+  width: 36%;
+}
+
+.left-media-bar {
+	float: right; 
+  padding-top: 14px;
+  margin-bottom: -60px; 
+  
+}
+
+.social-icons-bottom {
+  list-style: none;
+  margin-left: -530px;
+}
+
+.social-icons-bottom > li {
+   display: inline-block;
+}
+
+.social-icons-bottom .fab, .social-icons-bottom .fas {
+	color: #000;
+	background-color: rgb(239, 239, 239);
+	padding: 10px;
+	border-radius: 100%;
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+}
+.social-icons-bottom .fa-facebook-f {
+	padding-right: 5px;
 }
