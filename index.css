@@ -238,52 +238,47 @@ main {
 	line-height: 1.125rem;
 	color: rgb(102, 102, 102);
 }
+
+
 .inflation-image {
-	height: 560px;
-	display: block;
-	margin-right: auto;
-	width: 80.75%;
-}
-.inflation-paragraph-first {
-	display: inline-block;
-	vertical-align: top;
-	font-size: 14x;
-	font-weight: 300;
-	font-family: nyt-franklin, arial, helvetica, sans-serif;
-	word-spacing: 3px;
+	height: 576px;
+	  display: block;
+	  margin-right: auto;
+	width: 945px;
+  }
+  .inflation-paragraph-first {
+	  display: inline-block;
+	  vertical-align: top;
+	  font-size: 14x;
+	  font-weight: 300;
+	  font-family: nyt-franklin, arial, helvetica, sans-serif;
+		margin-left: 0px;
+		margin-right: 10px;
+	  margin-top: -430px;
+	  padding-top: 20px;
+	  padding-bottom: 100px;
+	  height: 120px;
+		width: 228px;
+	  line-height: 17px;
+	  font-style: normal;
+  }
+  .inflation-paragraph-second {
+	  display: inline-block;
+	  vertical-align: top;
+	  font-size: 14px;
+	  font-weight: 300;
+	  font-family: nyt-franklin, arial, helvetica, sans-serif;
+	  margin-top: -170px;
 	margin-left: 0px;
-	margin-top: -430px;
+	margin-right: 10px;
 	padding-top: 20px;
 	padding-bottom: 100px;
-	padding-right: 0px;
-	/* 	padding-right: 30px; */
-	/*   height: 130px; */
 	height: 120px;
 	width: 228px;
-	/* 	width: 18.75%; */
-	line-height: 15px;
-	font-style: normal;
-}
-.inflation-paragraph-second {
-	display: inline-block;
-	vertical-align: top;
-	font-size: 14px;
-	font-weight: 300;
-	font-family: nyt-franklin, arial, helvetica, sans-serif;
-	word-spacing: 3px;
-	margin-top: -170px;
-	margin-left: 0px;
-	padding-top: 20px;
-	padding-bottom: 100px;
-	/* 	padding-right: 30px; */
-	padding-right: 0px;
-	/* 	height: 130px;
-	width: 18.75%; */
-	height: 120px;
-	width: 228px;
-	line-height: 15px;
-	font-style: normal;
-}
+	  line-height: 17px;
+	  font-style: normal;
+  }
+
 .theory-line {
 	width: 6%;
 	margin-top: -46px;
