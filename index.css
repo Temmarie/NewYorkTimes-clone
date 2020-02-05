@@ -1,3 +1,4 @@
+
 main {
   width: 100%;
 }
@@ -130,9 +131,9 @@ main {
 
 .bottom-links-image {
   width: 3%;
-  padding-right:3px;
+  padding-right: 3px;
   margin-left: -26px;
-  margin-bottom:-5px;
+  margin-bottom: -5px;
   padding-bottom: 2.5px;
 }
 
@@ -621,7 +622,6 @@ main {
   opacity: 0.3;
 }
 
-
 .suggested-time {
   font-size: 12px;
   font-weight: 500;
@@ -632,6 +632,7 @@ main {
 .photo-by-links {
   text-decoration: none;
 }
+
 .suggested-outer-figcaptions .photo-by {
   font-size: 10px;
   font-weight: 400;
@@ -779,7 +780,7 @@ main {
 }
 
 .bottom-links-container {
-  margin-right: -50px;
+  /* margin-right: -50px; */
   font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
@@ -807,8 +808,8 @@ main {
 a.bottom-links {
   font-size: 12px;
   float: left;
-  padding-top: 5px; 
   padding-bottom: 5px;
+  padding-top: 5px;
   width: 500px;
 }
 
@@ -820,12 +821,7 @@ a.bottom-links {
   text-decoration: underline;
 }
 
-.column-6 h3 strong {
-  margin-left: 36px;
-}
-
 .bottom-links-container .bottom-links ul li strong {
-  /* font-family: nyt-franklin; */
   font-size: 13px;
   font-weight: 700;
   line-height: 1.5;
@@ -835,17 +831,16 @@ a.bottom-links {
 .bottom-links-container .bottom-links {
   font-size: 12px;
   font-weight: 500;
-  line-height: 2.0;
+  line-height: 2;
   color: rgb(0, 0, 0);
   margin-left: 25px;
 }
 
-/* .vertical-column-line {
-  display: inline-block;
+.vertical-column-line {
   border-left: 0.1px solid #e2e2e2;
-  height:340px;
-  float:left;
-} */
+  height: 340px;
+  float: left;
+}
 
 .floating-links {
   float: left;
