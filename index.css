@@ -1,4 +1,8 @@
 
+body {
+  overflow-x: hidden;
+}
+
 main {
   width: 100%;
 }
@@ -42,7 +46,6 @@ main {
 .center-nav-bar {
   cursor: pointer;
   padding-left: 70px;
-  margin-top: 20px;
 }
 
 .blue-btn {
@@ -58,12 +61,16 @@ main {
 
 .space-ripples {
   text-align: center;
-  font-family: cheltenham, georgia, 'times new roman', times, serif;
-  font-style: italic;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  padding: 10px;
+  font-size: 40px;
+  font-weight: 540;
+  line-height: 48px;
+  color: rgb(18, 18, 18);
+  font-style: oblique;
 }
 
 .big-picture {
-  height: 550px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -298,7 +305,7 @@ main {
 }
 
 .inflation-container {
-  margin-left: 150px;
+  margin-left: 200px;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 14px;
   line-height: 17px;
@@ -694,7 +701,7 @@ main {
   float: right;
   width: 23%;
   margin-top: -646px;
-  margin-right: 20px;
+  margin-right: -10px;
 }
 
 .popular-line {
