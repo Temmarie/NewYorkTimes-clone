@@ -528,6 +528,16 @@ main {
   margin-bottom: 10px;
 }
 
+.suggested-outer-figcaptions .photo-by h5 {
+  margin-top: -3px;
+  font-size: 10px;
+}
+
+.editor-outer-figcaptions .photo-by h5 {
+  margin-top: -5px;
+  font-size: 11px;
+}
+
 .most-popular-container > h3 {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 16px;
