@@ -787,8 +787,15 @@ main {
 }
 
 .bottom-links-container {
-  /* margin-right: -50px; */
   font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.column-6 h3 strong {
+  margin-left: 36px;
+}
+
+.bottom-links-headings {
+  font-weight: 800;
 }
 
 .bottom-links-container .footer-logo {
