@@ -65,6 +65,10 @@ main {
   margin-top: -5px;
 }
 
+h2.space-ripples {
+  display: grid;
+}
+
 .space-ripples {
   text-align: center;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
