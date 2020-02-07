@@ -66,8 +66,10 @@ main {
 }
 
 h2.space-ripples {
-  display: grid;
+  display: inline-block;
+  padding-left: 450px;
 }
+
 
 .space-ripples {
   text-align: center;
