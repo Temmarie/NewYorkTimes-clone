@@ -696,7 +696,7 @@ main {
   line-height: 12.3px;
   color: rgb(153, 153, 153);
   text-align: right;
-  margin-right: -45px;
+  margin-right: -2.8125rem;
 }
 
 .suggested-1-3 {
@@ -722,8 +722,8 @@ main {
 .suggested-5 {
   display: inline-block;
   vertical-align: top;
-  margin-left: 280px;
-  margin-top: -160px;
+  margin-left: 17.5rem;
+  margin-top: -10rem;
   padding-bottom: 100px;
   padding-right: 10px;
   height: 130px;
@@ -799,7 +799,7 @@ hr.editor-picks-line-1 {
 .editors-picks-sidebar {
   float: right;
   width: 23%;
-  margin-top: -130px;
+  margin-top: -8.125rem;
   margin-right: -10px;
 }
 
@@ -853,7 +853,7 @@ hr.editor-picks-line-1 {
   line-height: 12.3px;
   color: rgb(153, 153, 153);
   text-align: right;
-  margin-right: -45px;
+  margin-right: -2.8125rem;
 }
 
 .editors-picks .figcap-link {
