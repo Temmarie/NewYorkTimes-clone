@@ -1,0 +1,30 @@
+{
+  "name": "NewYorkTimes-clone",
+  "version": "1.0.0",
+  "description": "This is the third project of the Main HTML/CSS curriculum at [Microverse](https:www.microverse.org/) - @microverseinc",
+  "main": "stylelint.config.js",
+  "dependencies": {
+    "stylelint": "^13.0.0",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "devDependencies": {
+    "stylelint": "^13.0.0",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "scripts": {
+    "lint": " npx stylelint ./index.css",
+    "lint-fix": "npx stylelint --fix index.css",
+    "html-validator": "npx html-validator-cli --quiet --file index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/temmarie/NewYorkTimes-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/temmarie/NewYorkTimes-clone/issues"
+  },
+  "homepage": "https://github.com/temmarie/NewYorkTimes-clone#readme"
+}
