@@ -1,18 +1,18 @@
-/* Border box declaration 
-https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+/* Border box declaration */
 html {
   box-sizing: border-box;
 }
-/* inherit border-box on all elements in the universe and before and after
- */
-*, 
-*:before, 
-*:after {
+
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
 body {
   overflow-x: hidden;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 main {
@@ -27,7 +27,7 @@ main {
 .nav-bar {
   display: inline;
   justify-content: space-around;
-}
+￼}
 
 .left-nav-bar {
   float: left;
@@ -354,11 +354,12 @@ h2.space-ripples {
 }
 
 .inflation-container {
-  margin-left: 200px;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 14px;
   line-height: 17px;
   color: rgb(51, 51, 51);
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .inflation-container > p {
@@ -666,12 +667,12 @@ h2.space-ripples {
   padding: 10px;
 }
 
-
 .suggested-article-line {
   margin-top: 25px;
   width: 67%;
   margin-left: 0;
 }
+
 h3.suggested-article-title {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 14px;
@@ -701,7 +702,6 @@ h3.suggested-article-title {
 .suggested-article-container > figure > img {
   width: 100%;
 }
-
 
 .suggested-article-container-2 > figure > img {
   width: 100%;
@@ -822,10 +822,9 @@ hr.editor-picks-line-1 {
   margin-right: -10px;
 }
 
-/* .editors-picks-container > figure > img {
-  width: 120%;
-  height: 181px;
-} */
+.editors-picks-container > figure > img {
+  width: 80%;
+}
 
 .editors-picks-sidebar .sidebar img {
   height: 75px;
@@ -837,22 +836,11 @@ hr.editor-picks-line-1 {
   padding-bottom: 9px;
 }
 
-/* .editors-picks-container {
-  margin-left: 70px;
-  margin-bottom: 40px;
-  padding-left: 50px;
-} */
-
 .editors-picks-container {
   float: left;
-  margin-left:2%;
+  margin-left: 2%;
   width: 100%;
   margin-top: -100px;
-  /* margin-bottom: 10px; */
-}
-
-.editors-picks-container > figure > img {
-  width: 80%;
 }
 
 .editors-picks-container h3 a:hover {
@@ -860,34 +848,11 @@ hr.editor-picks-line-1 {
   cursor: pointer;
 }
 
-/* .editors-picks {
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 0;
-  padding-bottom: 100px;
-  margin-bottom: 65px;
-  padding-right: 10px;
-  height: 130px;
-  width: 18.75%;
-} */
-
 .editors-picks {
-  /* display: inline-block;
-  vertical-align: top;
-  /* padding-bottom: 100px; */
-  /* margin-bottom: 65px;
-  padding-bottom: 100px;
-  width: 18.75%;
-  margin-right: -20px; */ 
-
-
   display: inline-block;
   vertical-align: top;
-  /* margin-top: -100px; */
-  /* margin-left: 0; */
   margin-right: -20px;
   width: 18.75%;
-  /* float: left; */
 }
 
 .editor-time {
@@ -905,6 +870,7 @@ hr.editor-picks-line-1 {
   text-align: right;
   margin-right: 55px;
 }
+
 .start-margin-1 {
   margin-left: 0;
 }
@@ -928,7 +894,6 @@ hr.editor-picks-line-1 {
   border-top: 2px solid #e2e2e2;
   border-bottom: 1px solid #e2e2e2;
   margin-top: 700px;
-  /* margin: 0 auto; */
   max-width: 1200px;
   padding: 1px;
 }
