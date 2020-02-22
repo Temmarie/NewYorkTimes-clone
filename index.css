@@ -1,3 +1,15 @@
+/* Border box declaration 
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+/* inherit border-box on all elements in the universe and before and after
+ */
+*, 
+*:before, 
+*:after {
+  box-sizing: inherit;
+}
 
 body {
   overflow-x: hidden;
@@ -559,6 +571,7 @@ h2.space-ripples {
   line-height: 22px;
   color: rgb(0, 0, 0);
   margin-bottom: 10px;
+  margin-right: 100px;
 }
 
 .suggested-outer-figcaptions .photo-by h5 {
@@ -576,7 +589,7 @@ h2.space-ripples {
   font-size: 16px;
   line-height: 22px;
   color: rgb(51, 51, 51);
-  margin-top: -40px;
+  margin-top: 80px;
   margin-bottom: 10px;
 }
 
@@ -586,6 +599,8 @@ h2.space-ripples {
   font-weight: 700;
   line-height: 22px;
   color: rgb(51, 51, 51);
+  margin-left: 3.5%;
+  margin-top: -65px;
 }
 
 .sign-up-container .science-times h3 {
@@ -651,23 +666,45 @@ h2.space-ripples {
   padding: 10px;
 }
 
+
 .suggested-article-line {
   margin-top: 25px;
   width: 67%;
-  margin-left: 50px;
+  margin-left: 0;
+}
+h3.suggested-article-title {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  color: rgb(0, 0, 0);
+  margin-left: 0;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .suggested-article-container {
   float: left;
-  padding-left: 50px;
+  margin-left: 0;
+  width: 100%;
+}
+
+.suggested-article-container-2 {
+  float: left;
+  margin-left: 0;
   width: 100%;
   margin-top: -10px;
   margin-bottom: 10px;
 }
 
 .suggested-article-container > figure > img {
-  width: 120%;
-  height: 181px;
+  width: 100%;
+}
+
+
+.suggested-article-container-2 > figure > img {
+  width: 100%;
 }
 
 .suggested-article-links {
@@ -702,56 +739,31 @@ h2.space-ripples {
   line-height: 12.3px;
   color: rgb(153, 153, 153);
   text-align: right;
-  margin-right: -2.8125rem;
+  margin-right: -50px;
 }
 
 .suggested-1-3 {
   display: inline-block;
   vertical-align: top;
-  margin-left: 0;
   padding-bottom: 100px;
-  padding-right: 0.625rem;
-  height: 130px;
   width: 18.75%;
+  margin-right: -20px;
 }
 
-.suggested-4 {
+.start-margin {
   margin-left: 0;
-  vertical-align: top;
-  margin-top: 85px;
-  height: 130px;
-  width: 18.75%;
-  margin-bottom: 30px;
 }
 
-.suggested-5 {
+.suggested-4-6 {
   display: inline-block;
   vertical-align: top;
-  margin-left: 17rem;
-  margin-top: -10rem;
-  padding-bottom: 100px;
-  padding-right: 0.625rem;
-  height: 130px;
+  margin-top: -100px;
+  margin-right: -20px;
   width: 18.75%;
-  margin-bottom: 30px;
-}
-
-.suggested-6 {
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 0;
-  margin-top: -160px;
-  padding-bottom: 100px;
-  padding-right: 0.625rem;
-  height: 130px;
-  width: 18.75%;
-  margin-bottom: 30px;
 }
 
 .most-popular-line {
-  margin-bottom: 69px;
-  margin-top: -19px;
-  padding-bottom: -10px;
+  margin-bottom: -56px;
 }
 
 .most-popular-container {
@@ -777,8 +789,8 @@ h2.space-ripples {
 
 .editors-picks-line {
   width: 62%;
-  margin-left: 120px;
-  margin-top: 10px;
+  margin-left: 4.5%;
+  margin-top: -30px;
 }
 
 hr.editor-picks-line-1 {
@@ -810,10 +822,10 @@ hr.editor-picks-line-1 {
   margin-right: -10px;
 }
 
-.editors-picks-container > figure > img {
+/* .editors-picks-container > figure > img {
   width: 120%;
   height: 181px;
-}
+} */
 
 .editors-picks-sidebar .sidebar img {
   height: 75px;
@@ -825,10 +837,22 @@ hr.editor-picks-line-1 {
   padding-bottom: 9px;
 }
 
-.editors-picks-container {
+/* .editors-picks-container {
   margin-left: 70px;
   margin-bottom: 40px;
   padding-left: 50px;
+} */
+
+.editors-picks-container {
+  float: left;
+  margin-left:2%;
+  width: 100%;
+  margin-top: -100px;
+  /* margin-bottom: 10px; */
+}
+
+.editors-picks-container > figure > img {
+  width: 80%;
 }
 
 .editors-picks-container h3 a:hover {
@@ -836,7 +860,7 @@ hr.editor-picks-line-1 {
   cursor: pointer;
 }
 
-.editors-picks {
+/* .editors-picks {
   display: inline-block;
   vertical-align: top;
   margin-left: 0;
@@ -845,6 +869,25 @@ hr.editor-picks-line-1 {
   padding-right: 10px;
   height: 130px;
   width: 18.75%;
+} */
+
+.editors-picks {
+  /* display: inline-block;
+  vertical-align: top;
+  /* padding-bottom: 100px; */
+  /* margin-bottom: 65px;
+  padding-bottom: 100px;
+  width: 18.75%;
+  margin-right: -20px; */ 
+
+
+  display: inline-block;
+  vertical-align: top;
+  /* margin-top: -100px; */
+  /* margin-left: 0; */
+  margin-right: -20px;
+  width: 18.75%;
+  /* float: left; */
 }
 
 .editor-time {
@@ -860,7 +903,10 @@ hr.editor-picks-line-1 {
   line-height: 12.3px;
   color: rgb(153, 153, 153);
   text-align: right;
-  margin-right: -2.8125rem;
+  margin-right: 55px;
+}
+.start-margin-1 {
+  margin-left: 0;
 }
 
 .editors-picks .figcap-link {
@@ -881,7 +927,8 @@ hr.editor-picks-line-1 {
 .double-line {
   border-top: 2px solid #e2e2e2;
   border-bottom: 1px solid #e2e2e2;
-  margin: 0 auto;
+  margin-top: 700px;
+  /* margin: 0 auto; */
   max-width: 1200px;
   padding: 1px;
 }
