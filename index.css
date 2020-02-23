@@ -1207,7 +1207,7 @@ footer {
     left: -240px;
   }
 
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 1024px) {
     .video .iframe {
       left: 370px;
     }
