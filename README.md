@@ -14,7 +14,7 @@ This is the third project of the Main HTML/CSS curriculum at [Microverse](https:
 
 ## Live Demo
 
-[Live Demo](https://rawcdn.githack.com/Temmarie/NewYorkTimes-clone/720aacc7c72989e5a8a3d20a8aa420453822b772/index.html)
+[Live Demo](https://rawcdn.githack.com/Temmarie/NewYorkTimes-clone/4bc35102e14f49bc33592c11a0390723c9fc571a/index.html)
 
 ## Authors
 
