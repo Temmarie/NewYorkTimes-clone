@@ -1216,4 +1216,14 @@ footer {
       margin-left: 370px;
     }
   }
+
+  @media only screen and (min-width: 1290px) and (max-width: 1390px) {
+    .video .iframe {
+      left: 330px;
+    }
+
+    .video-info {
+      margin-left: 330px;
+    }
+  }
 }
