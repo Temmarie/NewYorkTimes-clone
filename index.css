@@ -1026,10 +1026,152 @@ footer {
   margin-top: -40px;
 }
 
+/* Media Queries */
+  
+@media only screen and (max-width: 1000px) {
+  .inflation-container {
+    font-family: nyt-imperial, georgia, "times new roman", times, serif;
+    font-size: 9px;
+    line-height: 9px;
+    color: rgb(51, 51, 51);
+    margin: 0 auto;
+  }
+  
+  .inflation-container > p {
+    text-align: justify;
+    display: block;
+    font-style: normal;
+    color: rgb(102, 102, 102);
+  }
+  
+  .inflation-image {
+    height: 576px;
+    display: block;
+    margin-right: auto;
+    width: 745px;
+    font-style: normal;
+  }
+  
+  .inflation-paragraph-first {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: -430px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    height: 90px;
+    width: 11.25rem;
+  }
+  
+  .inflation-paragraph-second {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 300;
+    margin-top: -170px;
+    margin-left: 0;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    height: 90px;
+    width: 11.25rem;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .inflation-theory .first {
+    position: relative;
+    bottom: -20px;
+    left: 0px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .inflation-container {
+    font-family: nyt-imperial, georgia, "times new roman", times, serif;
+    font-size: 6px;
+    line-height: 7px;
+    color: rgb(51, 51, 51);
+    margin: 0 auto;
+  }
+    
+  .inflation-paragraph-first {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0;
+    margin-right: 5px;
+    margin-top: -430px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    height: 70px;
+    width: 10.25rem;
+  }
+  
+  .inflation-paragraph-second {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 300;
+    margin-top: -170px;
+    margin-left: 0;
+    margin-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    height: 70px;
+    width: 10.25rem;
+  }
+
+  .inflation-image {
+    height: 576px;
+    display: block;
+    margin-right: 0;
+    width: 745px;
+    font-style: normal;
+  }
+  
+  .inflation-theory #everywhere {
+    position: relative;
+    right: -15px; 
+  }
+
+  .inflation-theory .last {
+    position: relative;
+    top: -20px;
+  }
+} 
+@media only screen and (max-width: 694px) {
+
+  .inflation-theory #everywhere {
+    position: relative;
+    right: -515px; 
+  }
+
+  .inflation-theory .last {
+    position: relative;
+    right: -340px;
+  }
+}
+@media only screen and (min-width: 978px) and (max-width: 1000px) {
+  .inflation-theory .first {
+    position: relative;
+    bottom: -20px;
+    left: -175px;
+  }
+}
+
+@media only screen and (min-width: 1230px) {
+  .inflation-theory .first {
+    position: relative;
+    bottom: -20px;
+    left: -200px;
+  }
+}
+
 @media only screen and (min-width: 1300px) {
   .inflation-theory .first {
     position: relative;
     bottom: -20px;
     left: -240px;
   }
+  
+
 }
