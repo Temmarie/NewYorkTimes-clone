@@ -264,10 +264,6 @@ h2.space-ripples {
   margin-top: 70px;
 }
 
-.video-by {
-  color: rgb(136, 136, 136);
-}
-
 .main-article-paragraphs p {
   font-family: georgia, serif;
   font-size: 20px;
@@ -299,6 +295,7 @@ h2.space-ripples {
 .video-by {
   color: rgb(136, 136, 136);
 }
+
 .article-footer a:hover {
   text-decoration: none;
 }
@@ -1029,7 +1026,7 @@ footer {
 }
 
 /* Media Queries */
-  
+
 @media only screen and (max-width: 1000px) {
   .inflation-container {
     font-family: nyt-imperial, georgia, "times new roman", times, serif;
@@ -1038,14 +1035,14 @@ footer {
     color: rgb(51, 51, 51);
     margin: 0 auto;
   }
-  
+
   .inflation-container > p {
     text-align: justify;
     display: block;
     font-style: normal;
     color: rgb(102, 102, 102);
   }
-  
+
   .inflation-image {
     height: 576px;
     display: block;
@@ -1053,7 +1050,7 @@ footer {
     width: 745px;
     font-style: normal;
   }
-  
+
   .inflation-paragraph-first {
     display: inline-block;
     vertical-align: top;
@@ -1065,7 +1062,7 @@ footer {
     height: 90px;
     width: 11.25rem;
   }
-  
+
   .inflation-paragraph-second {
     display: inline-block;
     vertical-align: top;
@@ -1083,21 +1080,22 @@ footer {
     position: relative;
     top: 65px;
   }
-  
+
   .theory-author {
     position: relative;
     top: 50px;
-  } 
+  }
 }
 
 @media only screen and (max-width: 890px) {
   .inflation-paragraph-first {
     margin-top: -465px;
   }
+
   .inflation-theory .first {
     position: relative;
     bottom: -20px;
-    left: 0px;
+    left: 0;
   }
 }
 
@@ -1115,21 +1113,19 @@ footer {
     color: rgb(51, 51, 51);
     margin: 0 auto;
   }
-    
+
   .inflation-paragraph-first {
     display: inline-block;
     vertical-align: top;
     margin-left: 0;
     margin-right: 15px;
-    margin-top: -430px;
+    margin-top: -465px;
     padding-top: 20px;
     padding-bottom: 100px;
     height: 70px;
     width: 10.25rem;
   }
-  .inflation-paragraph-first {
-    margin-top: -465px;
-  }
+
   .inflation-paragraph-second {
     display: inline-block;
     vertical-align: top;
@@ -1150,10 +1146,10 @@ footer {
     width: 745px;
     font-style: normal;
   }
-  
+
   .inflation-theory #everywhere {
     position: relative;
-    right: -15px; 
+    right: -15px;
   }
 
   .inflation-theory .first {
@@ -1163,14 +1159,15 @@ footer {
 
   .inflation-theory .last {
     position: relative;
+
     /* top: -20px; */
   }
-} 
-@media only screen and (max-width: 694px) {
+}
 
+@media only screen and (max-width: 694px) {
   .inflation-theory #everywhere {
     position: relative;
-    right: -515px; 
+    right: -515px;
   }
 
   .inflation-theory .last {
@@ -1178,6 +1175,7 @@ footer {
     right: -340px;
   }
 }
+
 @media only screen and (min-width: 975px) and (max-width: 1000px) {
   .inflation-theory .first {
     position: relative;
@@ -1186,13 +1184,12 @@ footer {
   }
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) {
   h2.space-ripples {
     display: inline-block;
     padding-left: 15.125rem;
     text-align: start;
   }
-  
 }
 
 @media only screen and (min-width: 1230px) {
@@ -1211,13 +1208,12 @@ footer {
   }
 
   @media only screen and (min-width: 1440px) {
-    .video .iframe{
+    .video .iframe {
       left: 370px;
     }
-    
+
     .video-info {
       margin-left: 370px;
     }
   }
-
 }
