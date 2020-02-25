@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="normalize.css">
 	<link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="index.css" rel="stylesheet">
 	<title>New York times</title>
 </head>
-<body>
+<body class="main-central">
 	<header>
 		<nav class="nav-bar">
 			<div class="left-nav-bar">
@@ -137,10 +138,13 @@ A Kobe Bryant Joke Goes Wrong, Revealing Comedy’s Troll Side</a>
               <p class="inflation-paragraph-second col"><strong>INFLATION</strong> solves this problem. The theory proposes that, less than a trillionth of a second after the Big Bang, the universe expanded faster than the speed of light. Tiny ripples in the violently expanding energy field eventually grew into the large-scale structures of the universe.</p>
               <p class="inflation-paragraph-second col"><strong>FLUCTUATION</strong> Astronomers have now detected evidence of these ancient fluctuations in swirls of polarized light in the cosmic background radiation, which is energy left over from the early universe. These are gravitational waves predicted by Einstein.</p>
               <p class="inflation-paragraph-second col last"><strong>EXPANSION</strong> Returning to our coffee, imagine a single, central pot expanding faster than light and cooling to an even temperature as it expands. That is something like inflation. And the structure of the universe mirrors the froth and foam of the original pot.</p>
-       </div>
+       
+              <hr class="theory-line">
+              <p class="theory-author">By LARRY BUCHANAN and JONATHAN CORUM</p>
+            </div>
 				</div>
-				<hr class="theory-line">
-				<p class="theory-author">By LARRY BUCHANAN and JONATHAN CORUM</p>
+				<!-- <hr class="theory-line">
+				<p class="theory-author">By LARRY BUCHANAN and JONATHAN CORUM</p> -->
 				<div class="main-article-paragraphs">
 					<p>Dr. Kovac said the chance that the results were a fluke was only one in 10 million.</p>
 					<p>Dr. Guth, now 67, pronounced himself “bowled over,” saying he had not expected such a definite confirmation in his lifetime.</p>
@@ -241,7 +245,7 @@ A Kobe Bryant Joke Goes Wrong, Revealing Comedy’s Troll Side</a>
       <hr class="suggested-article-line">
       <div class="suggested-article-container">
         <h3 class="suggested-article-title">More in Space and Astronomy</h3>
-        <figure class="sun suggested-1-3">
+        <figure class="sun suggested-1-3 start-margin">
             <img alt="sun" src="https://static01.nyt.com/images/2020/01/29/science/29TB-SUN1/full_image_high-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=ucale"> 
             <figcaption class="suggested-outer-figcaptions">
               <a class="photo-by-links" href="#"><section class="photo-by"><h5>Image by NSO/NSF/AURA</h5></section></a>
@@ -259,28 +263,31 @@ A Kobe Bryant Joke Goes Wrong, Revealing Comedy’s Troll Side</a>
                 <a href="#" class="suggested-article-links">SpaceX's Explosive Test May Launch Year of Renewed Human Spaceflight </a><span class="suggested-time"><br /><time datetime="2008-02-14 20:00">Jan. 19</time></span>
             </figcaption>
         </figure>
-        <figure class="vera suggested-4">
-            <img alt="vera" src="https://static01.nyt.com/images/2020/01/14/science/11SCI-VERA1/11SCI-VERA1-threeByTwoSmallAt2X-v2.jpg?quality=75&auto=webp&disable=upscale"> 
-            <figcaption class="suggested-outer-figcaptions">
-              <a class="photo-by-links" href="#"><section class="photo-by"><h5>via Carnegie Institution of Washington</h5></section></a>
-                <a href="#" class="suggested-article-links">Vera Rubin Gets a Telescope of Her Own </a><span class="suggested-time"><br /><time datetime="2008-02-14 20:00">Jan. 11</time></span>
-            </figcaption>
-        </figure>
-        <figure class="betelgeuse suggested-5">
-            <img alt="betelgeuse" src="https://static01.nyt.com/images/2020/01/08/us/betelgeuse-supernova-fading-promo-1578514311515/betelgeuse-supernova-fading-promo-1578514311515-threeByTwoSmallAt2X-v4.jpg?quality=75&auto=webp&disable=upscale">
-            <figcaption class="suggested-outer-figcaptions">
-                <a href="#" class="suggested-article-links">Waiting for Betelgeuse to Explode </a><span class="suggested-time"><br /><time datetime="2008-02-14 20:00">Jan. 9</time></span>
-            </figcaption>
-        </figure>
-  
-        <figure class="venus suggested-6">
-            <img alt="venus" src="https://static01.nyt.com/images/2020/01/09/science/09TB-VENUS1/09TB-VENUS1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale"> 
-            <figcaption class="suggested-outer-figcaptions">
-              <a class="photo-by-links" href="#"><section class="photo-by"><h5>Matthias Malmer/NASA/JPL</h5></section></a>
-                <a href="#" class="suggested-article-links">Volcanoes on Venus Might Still be Smoking </a><span class="suggested-time"><br /><time datetime="2008-02-14 20:00">Jan. 9</time></span>
-            </figcaption>
-        </figure>
     </div>
+
+    <div class="suggested-article-container-2">
+      <figure class="vera suggested-4-6 start-margin">
+          <img alt="vera" src="https://static01.nyt.com/images/2020/01/14/science/11SCI-VERA1/11SCI-VERA1-threeByTwoSmallAt2X-v2.jpg?quality=75&auto=webp&disable=upscale"> 
+          <figcaption class="suggested-outer-figcaptions">
+            <a class="photo-by-links" href="#"><section class="photo-by"><h5>via Carnegie Institution of Washington</h5></section></a>
+              <a href="#" class="suggested-article-links">Vera Rubin Gets a Telescope of Her Own </a><span class="suggested-time"><br /><time datetime="2008-02-14 20:00">Jan. 11</time></span>
+          </figcaption>
+      </figure>
+      <figure class="betelgeuse suggested-4-6">
+          <img alt="betelgeuse" src="https://static01.nyt.com/images/2020/01/08/us/betelgeuse-supernova-fading-promo-1578514311515/betelgeuse-supernova-fading-promo-1578514311515-threeByTwoSmallAt2X-v4.jpg?quality=75&auto=webp&disable=upscale">
+          <figcaption class="suggested-outer-figcaptions">
+              <a href="#" class="suggested-article-links">Waiting for Betelgeuse to Explode </a><span class="suggested-time"><br /><time datetime="2008-02-14 20:00">Jan. 9</time></span>
+          </figcaption>
+      </figure>
+
+      <figure class="venus suggested-4-6">
+          <img alt="venus" src="https://static01.nyt.com/images/2020/01/09/science/09TB-VENUS1/09TB-VENUS1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale"> 
+          <figcaption class="suggested-outer-figcaptions">
+            <a class="photo-by-links" href="#"><section class="photo-by"><h5>Matthias Malmer/NASA/JPL</h5></section></a>
+              <a href="#" class="suggested-article-links">Volcanoes on Venus Might Still be Smoking </a><span class="suggested-time"><br /><time datetime="2008-02-14 20:00">Jan. 9</time></span>
+          </figcaption>
+      </figure>
+  </div>
         <div class="most-popular-container">
                   <hr class="most-popular-line">
                 <h3>Most popular</h3>
@@ -311,17 +318,18 @@ A Kobe Bryant Joke Goes Wrong, Revealing Comedy’s Troll Side</a>
         <div class="editors-picks-container">
           <h3><a class="editors-title-link" href="#">Editor's Picks</a></h3>
             <figure class="editors-picks">
-                <img alt="Saturday night" src="https://static01.nyt.com/images/2020/01/26/arts/26snl-2/26snl-2-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale"> 
+                <img alt="Saturday night start-margin-1" src="https://static01.nyt.com/images/2020/01/26/arts/26snl-2/26snl-2-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale"> 
                 <figcaption class="editor-outer-figcaptions">
                   <a class="photo-by-links" href="#"><section class="photo-by"><h5>NBC</h5><br /></section></a>
                     <a href="#" class="figcap-link">'Saturday Night Live' Spoofs Trump's Impeachment <span class="editor-time"><br /><time datetime="2008-02-14 20:00">Jan. 26</time></span></a>
                 </figcaption>
             </figure>
             <figure class="editors-picks">
-                <img alt="Quit" src="https://static01.nyt.com/images/2020/01/21/fashion/21quit-promo-condom/21quit-promo-14-square640.jpg?quality=75&auto=webp&disable=upscale&width=350">
+                <img alt="Quit" src="https://static01.nyt.com/images/2020/02/06/fashion/05LLBEAN9/05LLBEAN9-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale">
                 <figcaption class="editor-outer-figcaptions">
-                  <a class="photo-by-links" href=""> <section class="photo-by"><h5>Photo Illustration by Tony Cenicola/The New York times</h5><br /></section></a>
-                    <a href="#" class="figcap-link">I Quit Sex for 12 years <span class="editor-time"><br /><time datetime="2008-02-14 20:00">Jan. 20</time></span></a>
+                  <a class="photo-by-links" href=""> <section class="photo-by"><h5>John Taggart for The New York Times
+                  </h5><br /></section></a>
+                    <a href="#" class="figcap-link">Storming the Catwalk in an L.L. Bean Boot <span class="editor-time"><br /><time datetime="2008-02-14 20:00">Jan. 20</time></span></a>
                 </figcaption>
             </figure>
             <figure class="editors-picks">
