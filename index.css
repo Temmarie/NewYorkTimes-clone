@@ -12,6 +12,7 @@ html {
 body {
   overflow-x: hidden;
   margin: 0 auto;
+  max-width: 1440px;
 }
 
 main {
@@ -275,9 +276,10 @@ h2.space-ripples {
 }
 
 .video .iframe {
-  position: relative;
+  /* position: relative; */
   height: 335px;
-  left: 260px;
+  margin: auto 25%;
+  /* left: 260px; */
   width: 47%;
   padding: 10px;
 }
@@ -425,15 +427,16 @@ h2.space-ripples {
   .inflation-paragraph-second {
     margin-top: 95px;
   }
+}
 
-  @media only screen and (min-width: 1440px) {
-    .inflation-image,
-    .inflation-theory,
-    .inflation-container {
-      margin: 0 auto;
-      max-width: 1440px;
-    }
+@media only screen and (min-width: 1440px) {
+  .inflation-image,
+  .inflation-theory,
+  .inflation-container {
+    margin: 0 auto;
+    max-width: 1440px;
   }
+}
 
   .theory-line {
     clear: both;
@@ -532,7 +535,6 @@ h2.space-ripples {
 
   .comments-container .social-icons-bottom {
     list-style: none;
-    margin-left: 254px;
     position: relative;
   }
 
@@ -1057,7 +1059,7 @@ h2.space-ripples {
       text-align: start;
     }
   }
-
+/* 
   @media only screen and (min-width: 1024px) {
     .video .iframe {
       left: 370px;
@@ -1077,4 +1079,4 @@ h2.space-ripples {
       margin-left: 330px;
     }
   }
-}
+} */
