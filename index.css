@@ -1,6 +1,18 @@
+/* Border box declaration */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
 body {
   overflow-x: hidden;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 main {
@@ -14,7 +26,6 @@ main {
 
 .nav-bar {
   display: inline;
-  justify-content: space-around;
 }
 
 .left-nav-bar {
@@ -250,29 +261,7 @@ h2.space-ripples {
 }
 
 .main-article-paragraphs {
-  margin-top: 20px;
-}
-
-.main-article-paragraphs iframe {
-  margin-left: 360px;
-}
-
-.iframe {
-  height: 335px;
-  width: 580px;
-}
-
-.video-info {
-  font-family: nyt-imperial, georgia, "times new roman", times, serif;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 20px;
-  margin-left: 360px;
-  color: rgb(102, 102, 102);
-}
-
-.video-by {
-  color: rgb(136, 136, 136);
+  margin-top: 70px;
 }
 
 .main-article-paragraphs p {
@@ -284,6 +273,27 @@ h2.space-ripples {
   margin: auto;
   width: 50%;
   padding: 10px;
+}
+
+.video .iframe {
+  position: relative;
+  height: 335px;
+  left: 260px;
+  width: 47%;
+  padding: 10px;
+}
+
+.video-info {
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 260px;
+  color: rgb(102, 102, 102);
+}
+
+.video-by {
+  color: rgb(136, 136, 136);
 }
 
 .article-footer a:hover {
@@ -342,11 +352,11 @@ h2.space-ripples {
 }
 
 .inflation-container {
-  margin-left: 200px;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 14px;
   line-height: 17px;
   color: rgb(51, 51, 51);
+  margin: 0 0.625rem;
 }
 
 .inflation-container > p {
@@ -375,12 +385,12 @@ h2.space-ripples {
   font-weight: 300;
   font-family: nyt-franklin, arial, helvetica, sans-serif;
   margin-left: 0;
-  margin-right: 10px;
+  margin-right: 0.625rem;
   margin-top: -430px;
   padding-top: 20px;
   padding-bottom: 100px;
   height: 120px;
-  width: 228px;
+  width: 14.25rem;
   line-height: 17px;
   font-style: normal;
 }
@@ -393,18 +403,18 @@ h2.space-ripples {
   font-family: nyt-franklin, arial, helvetica, sans-serif;
   margin-top: -170px;
   margin-left: 0;
-  margin-right: 10px;
+  margin-right: 0.625rem;
   padding-top: 20px;
   padding-bottom: 100px;
   height: 120px;
-  width: 228px;
+  width: 14.25rem;
   line-height: 17px;
   font-style: normal;
 }
 
 .theory-line {
   width: 6%;
-  margin-top: -46px;
+  margin-top: -16px;
   margin-left: 150px;
 }
 
@@ -559,6 +569,7 @@ h2.space-ripples {
   line-height: 22px;
   color: rgb(0, 0, 0);
   margin-bottom: 10px;
+  margin-right: 100px;
 }
 
 .suggested-outer-figcaptions .photo-by h5 {
@@ -576,7 +587,7 @@ h2.space-ripples {
   font-size: 16px;
   line-height: 22px;
   color: rgb(51, 51, 51);
-  margin-top: -40px;
+  margin-top: 80px;
   margin-bottom: 10px;
 }
 
@@ -586,6 +597,8 @@ h2.space-ripples {
   font-weight: 700;
   line-height: 22px;
   color: rgb(51, 51, 51);
+  margin-left: 3.5%;
+  margin-top: -65px;
 }
 
 .sign-up-container .science-times h3 {
@@ -654,20 +667,41 @@ h2.space-ripples {
 .suggested-article-line {
   margin-top: 25px;
   width: 67%;
-  margin-left: 50px;
+  margin-left: 0;
+}
+
+h3.suggested-article-title {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  color: rgb(0, 0, 0);
+  margin-left: 0;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .suggested-article-container {
   float: left;
-  padding-left: 50px;
+  margin-left: 0;
+  width: 100%;
+}
+
+.suggested-article-container-2 {
+  float: left;
+  margin-left: 0;
   width: 100%;
   margin-top: -10px;
   margin-bottom: 10px;
 }
 
 .suggested-article-container > figure > img {
-  width: 120%;
-  height: 181px;
+  width: 100%;
+}
+
+.suggested-article-container-2 > figure > img {
+  width: 100%;
 }
 
 .suggested-article-links {
@@ -702,56 +736,31 @@ h2.space-ripples {
   line-height: 12.3px;
   color: rgb(153, 153, 153);
   text-align: right;
-  margin-right: -2.8125rem;
+  margin-right: -50px;
 }
 
 .suggested-1-3 {
   display: inline-block;
   vertical-align: top;
-  margin-left: 0;
   padding-bottom: 100px;
-  padding-right: 0.625rem;
-  height: 130px;
   width: 18.75%;
+  margin-right: -20px;
 }
 
-.suggested-4 {
+.start-margin {
   margin-left: 0;
-  vertical-align: top;
-  margin-top: 85px;
-  height: 130px;
-  width: 18.75%;
-  margin-bottom: 30px;
 }
 
-.suggested-5 {
+.suggested-4-6 {
   display: inline-block;
   vertical-align: top;
-  margin-left: 17rem;
-  margin-top: -10rem;
-  padding-bottom: 100px;
-  padding-right: 0.625rem;
-  height: 130px;
+  margin-top: -100px;
+  margin-right: -20px;
   width: 18.75%;
-  margin-bottom: 30px;
-}
-
-.suggested-6 {
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 0;
-  margin-top: -160px;
-  padding-bottom: 100px;
-  padding-right: 0.625rem;
-  height: 130px;
-  width: 18.75%;
-  margin-bottom: 30px;
 }
 
 .most-popular-line {
-  margin-bottom: 69px;
-  margin-top: -19px;
-  padding-bottom: -10px;
+  margin-bottom: -56px;
 }
 
 .most-popular-container {
@@ -777,8 +786,8 @@ h2.space-ripples {
 
 .editors-picks-line {
   width: 62%;
-  margin-left: 120px;
-  margin-top: 10px;
+  margin-left: 4.5%;
+  margin-top: -30px;
 }
 
 hr.editor-picks-line-1 {
@@ -811,8 +820,7 @@ hr.editor-picks-line-1 {
 }
 
 .editors-picks-container > figure > img {
-  width: 120%;
-  height: 181px;
+  width: 80%;
 }
 
 .editors-picks-sidebar .sidebar img {
@@ -826,9 +834,10 @@ hr.editor-picks-line-1 {
 }
 
 .editors-picks-container {
-  margin-left: 70px;
-  margin-bottom: 40px;
-  padding-left: 50px;
+  float: left;
+  margin-left: 2%;
+  width: 100%;
+  margin-top: -100px;
 }
 
 .editors-picks-container h3 a:hover {
@@ -839,11 +848,7 @@ hr.editor-picks-line-1 {
 .editors-picks {
   display: inline-block;
   vertical-align: top;
-  margin-left: 0;
-  padding-bottom: 100px;
-  margin-bottom: 65px;
-  padding-right: 10px;
-  height: 130px;
+  margin-right: -20px;
   width: 18.75%;
 }
 
@@ -860,7 +865,11 @@ hr.editor-picks-line-1 {
   line-height: 12.3px;
   color: rgb(153, 153, 153);
   text-align: right;
-  margin-right: -2.8125rem;
+  margin-right: 55px;
+}
+
+.start-margin-1 {
+  margin-left: 0;
 }
 
 .editors-picks .figcap-link {
@@ -881,7 +890,7 @@ hr.editor-picks-line-1 {
 .double-line {
   border-top: 2px solid #e2e2e2;
   border-bottom: 1px solid #e2e2e2;
-  margin: 0 auto;
+  margin-top: 700px;
   max-width: 1200px;
   padding: 1px;
 }
@@ -1014,4 +1023,207 @@ footer {
   text-align: right;
   margin-right: 40px;
   margin-top: -40px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1000px) {
+  .inflation-container {
+    font-family: nyt-imperial, georgia, "times new roman", times, serif;
+    font-size: 9px;
+    line-height: 9px;
+    color: rgb(51, 51, 51);
+    margin: 0 auto;
+  }
+
+  .inflation-container > p {
+    text-align: justify;
+    display: block;
+    font-style: normal;
+    color: rgb(102, 102, 102);
+  }
+
+  .inflation-image {
+    height: 576px;
+    display: block;
+    margin-right: auto;
+    width: 745px;
+    font-style: normal;
+  }
+
+  .inflation-paragraph-first {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: -430px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    height: 90px;
+    width: 11.25rem;
+  }
+
+  .inflation-paragraph-second {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 300;
+    margin-top: -170px;
+    margin-left: 0;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    height: 90px;
+    width: 11.25rem;
+  }
+
+  .theory-line {
+    position: relative;
+    top: 65px;
+  }
+
+  .theory-author {
+    position: relative;
+    top: 50px;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .inflation-paragraph-first {
+    margin-top: -465px;
+  }
+
+  .inflation-theory .first {
+    position: relative;
+    bottom: -20px;
+    left: 0;
+  }
+}
+
+@media only screen and (min-width: 892px) and (max-width: 1000px) {
+  .inflation-paragraph-first {
+    margin-top: -465px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .inflation-container {
+    font-family: nyt-imperial, georgia, "times new roman", times, serif;
+    font-size: 6px;
+    line-height: 7px;
+    color: rgb(51, 51, 51);
+    margin: 0 auto;
+  }
+
+  .inflation-paragraph-first {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0;
+    margin-right: 15px;
+    margin-top: -465px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    height: 70px;
+    width: 10.25rem;
+  }
+
+  .inflation-paragraph-second {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 300;
+    margin-top: -170px;
+    margin-left: 0;
+    margin-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    height: 70px;
+    width: 10.25rem;
+  }
+
+  .inflation-image {
+    height: 576px;
+    display: block;
+    margin-right: 0;
+    width: 745px;
+    font-style: normal;
+  }
+
+  .inflation-theory #everywhere {
+    position: relative;
+    right: -15px;
+  }
+
+  .inflation-theory .first {
+    position: relative;
+    top: -3px;
+  }
+
+  .inflation-theory .last {
+    position: relative;
+
+    /* top: -20px; */
+  }
+}
+
+@media only screen and (max-width: 694px) {
+  .inflation-theory #everywhere {
+    position: relative;
+    right: -515px;
+  }
+
+  .inflation-theory .last {
+    position: relative;
+    right: -340px;
+  }
+}
+
+@media only screen and (min-width: 975px) and (max-width: 1000px) {
+  .inflation-theory .first {
+    position: relative;
+    bottom: -20px;
+    left: -190px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  h2.space-ripples {
+    display: inline-block;
+    padding-left: 15.125rem;
+    text-align: start;
+  }
+}
+
+@media only screen and (min-width: 1230px) {
+  .inflation-theory .first {
+    position: relative;
+    bottom: -20px;
+    left: -200px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .inflation-theory .first {
+    position: relative;
+    bottom: -20px;
+    left: -240px;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .video .iframe {
+      left: 370px;
+    }
+
+    .video-info {
+      margin-left: 370px;
+    }
+  }
+
+  @media only screen and (min-width: 1290px) and (max-width: 1390px) {
+    .video .iframe {
+      left: 330px;
+    }
+
+    .video-info {
+      margin-left: 330px;
+    }
+  }
 }
